@@ -1,0 +1,110 @@
+---
+title: Changelog
+description: Version history with recent updates, new features, and resolved issues.
+---
+
+## Recent Updates
+
+<Callout kind="info">
+  Stay updated with the latest releases of Successpro. Check this changelog regularly for new features, improvements, and fixes that enhance your project management, financial tracking, and team collaboration.
+</Callout>
+
+View key releases at a glance:
+
+<Columns cols={3}>
+  <Card title="v1.3.0" icon="zap" href="#v1-3-0">
+    AI-powered financial forecasting and real-time dashboards.
+  </Card>
+  <Card title="v1.2.0" icon="shield" href="#v1-2-0">
+    Enhanced security and project visibility tools.
+  </Card>
+  <Card title="v1.1.0" icon="trending-up" href="#v1-1-0">
+    Improved profitability analytics.
+  </Card>
+</Columns>
+
+<Update label="2025-01-15" description="v1.3.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added AI-driven financial forecasting to predict project profitability with `<90%` accuracy.
+- Introduced real-time collaborative dashboards for teams to track milestones and budgets.
+- New integration with popular accounting tools like QuickBooks via API.
+
+## Improvements
+
+- Optimized query performance for large datasets, reducing load times by `50%`.
+- Enhanced mobile responsiveness for on-the-go project management.
+
+## Bug Fixes
+
+- Fixed sync issues between project timelines and financial reports.
+- Resolved export errors for PDF profitability statements.
+
+</Update>
+
+<Update label="2024-12-10" description="v1.2.0" tags={["feature", "bugfix", "security"]}>
+
+## New Features
+
+- Implemented role-based access control (RBAC) for secure team permissions.
+- Added customizable widgets to the main dashboard for personalized views.
+
+## Improvements
+
+- Streamlined onboarding flow with guided setup wizards.
+
+## Bug Fixes
+
+- Patched potential security vulnerability in API authentication (CVE-2024-XXXX).
+- Corrected calculation errors in resource allocation reports.
+
+```javascript
+// Example: Updated API auth header
+const headers = {
+  'Authorization': `Bearer ${YOUR_API_KEY}`,
+  'Content-Type': 'application/json'
+};
+```
+
+</Update>
+
+<Update label="2024-11-05" description="v1.1.0" tags={["feature", "breaking"]}>
+
+## New Features
+
+- Launched profitability analytics module to track margins across projects.
+- Integrated people management with timesheet approvals.
+
+## Breaking Changes
+
+- Updated API endpoints from `/v1/projects` to `/v2/projects` for better versioning.
+
+## Bug Fixes
+
+- Fixed dashboard refresh loops on low-bandwidth connections.
+
+</Update>
+
+## Upcoming Changes
+
+<Board title="Q1 2025 Roadmap">
+  <BoardColumn title="Planned" color="0" icon="calendar">
+    <BoardCard title="Advanced AI Insights" description="Predictive analytics for client retention" icon="zap" dueDate="2025-02-15" />
+    <BoardCard title="Webhook Support" description="Real-time notifications for key events" icon="bell" dueDate="2025-03-01" />
+  </BoardColumn>
+  <BoardColumn title="In Progress" color="1" icon="loader-2">
+    <BoardCard title="Multi-currency Billing" description="Support for global financials" icon="globe" author="Engineering" />
+  </BoardColumn>
+  <BoardColumn title="Researching" color="2" icon="search">
+    <BoardCard title="ERP Integrations" description="Connect with SAP and Oracle" createdAt="2025-01-10" />
+  </BoardColumn>
+</Board>
+
+<Expandable title="How to Provide Feedback" default-open="true">
+  Share your thoughts on upcoming features via our feedback portal at `https://feedback.successpro.ai`. Your input helps prioritize roadmap items.
+</Expandable>
+
+<Callout kind="tip">
+  Subscribe to our newsletter or follow updates on GitHub for release notifications. Enable auto-updates in your Successpro dashboard settings.
+</Callout>

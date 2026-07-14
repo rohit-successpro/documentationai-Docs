@@ -1,0 +1,142 @@
+---
+title: Features
+description: Overview of Successpro's main features and how they solve common challenges in project delivery and profitability.
+---
+
+## Overview
+
+Successpro empowers technology services companies with an integrated platform for projects, people, and financials. You gain visibility into operations, boost efficiency, and drive profitable growth. Key features address common pain points like siloed data, underutilized teams, inaccurate forecasting, and missed insights.
+
+<Callout kind="info">
+  Operate smart. Deliver more. Grow profitably with Successpro's unified AI platform.
+</Callout>
+
+## Core Features
+
+Explore the main capabilities through these feature cards.
+
+<Columns cols={2}>
+  <Card title="Project Management Tools" icon="calendar" href="#project-management">
+    Plan, track, and deliver projects with real-time dashboards and automated workflows.
+  </Card>
+  <Card title="People Utilization Tracking" icon="users" href="#utilization">
+    Monitor team capacity, skills, and allocation to maximize resource efficiency.
+  </Card>
+  <Card title="Financial Forecasting" icon="trending-up" href="#forecasting">
+    Predict revenue, costs, and margins with AI-powered models and scenario planning.
+  </Card>
+  <Card title="AI-Driven Insights" icon="zap" href="#insights">
+    Get actionable recommendations from data analysis to optimize performance.
+  </Card>
+</Columns>
+
+## Project Management Tools
+
+{id="project-management"}
+
+Manage your entire project lifecycle in one place. Create tasks, assign resources, set milestones, and monitor progress with Gantt charts and Kanban boards.
+
+<Tabs>
+  <Tab title="Setup" icon="settings">
+    <Steps>
+      <Step title="Create Project" icon="plus">
+        Navigate to the dashboard and click "New Project". Enter details like name, timeline, and budget.
+      </Step>
+      <Step title="Add Tasks" icon="list">
+        Break down work into tasks. Assign owners and deadlines.
+      </Step>
+      <Step title="Track Progress" icon="eye">
+        Use the overview board to visualize status at a glance.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="API Integration" icon="code">
+    <CodeGroup tabs="JavaScript,Python">
+      ```javascript
+      const response = await fetch('https://api.example.com/projects', {
+        method: 'POST',
+        headers: { 'Authorization': 'Bearer YOUR_TOKEN', 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'New Client Project',
+          startDate: '2024-01-01',
+          budget: 50000
+        })
+      });
+      ```
+      ```python
+      import requests
+      response = requests.post(
+          'https://api.example.com/projects',
+          headers={'Authorization': 'Bearer YOUR_TOKEN', 'Content-Type': 'application/json'},
+          json={'name': 'New Client Project', 'startDate': '2024-01-01', 'budget': 50000}
+      )
+      ```
+    </CodeGroup>
+  </Tab>
+</Tabs>
+
+## People Utilization Tracking
+
+{id="utilization"}
+
+Track how your team spends time across projects. Identify bottlenecks, overworked staff, and idle resources to improve allocation.
+
+| Metric | Description | Target |
+|--------|-------------|--------|
+| Utilization Rate | Percentage of billable hours | `>85%` |
+| Skill Coverage | Gaps in team expertise | Minimize |
+| Capacity Forecast | Upcoming availability | Plan ahead |
+
+<Expandable title="Advanced Reporting" default-open="false">
+  Export utilization data to CSV or integrate with payroll systems for automated invoicing.
+</Expandable>
+
+## Financial Forecasting
+
+{id="forecasting"}
+
+Build accurate forecasts using historical data, pipeline updates, and market trends. Run what-if scenarios to test profitability impacts.
+
+```mermaid
+graph TD
+    A[Historical Data] --> B[AI Model]
+    C[Pipeline Updates] --> B
+    D[Market Trends] --> B
+    B --> E[Revenue Forecast]
+    B --> F[Cost Projections]
+    E --> G[Margin Analysis]
+    F --> G
+```
+
+<Callout kind="tip">
+  Update your pipeline weekly to refine forecasts and avoid surprises.
+</Callout>
+
+## AI-Driven Insights
+
+{id="insights"}
+
+Leverage machine learning for proactive recommendations. Spot risks early, suggest optimal staffing, and highlight growth opportunities.
+
+<Board title="Insight Pipeline">
+  <BoardColumn title="Monitoring" color="0" icon="eye">
+    <BoardCard title="Utilization Trends" description="Weekly team efficiency report" />
+  </BoardColumn>
+  <BoardColumn title="Active" color="1" icon="loader">
+    <BoardCard title="Profitability Alerts" description="Projects under target margins" dueDate="2024-12-31" />
+  </BoardColumn>
+  <BoardColumn title="Actioned" color="2" icon="check-circle">
+    <BoardCard title="Resource Reallocation" description="Moved staff to high-priority project" createdAt="2024-12-15" />
+  </BoardColumn>
+</Board>
+
+## Next Steps
+
+<Columns cols={2}>
+  <Card title="Get Started" icon="rocket" href="/quickstart">
+    Follow the quickstart guide to set up your first project.
+  </Card>
+  <Card title="API Reference" icon="book-open" href="/authentication">
+    Integrate Successpro into your workflows via API.
+  </Card>
+</Columns>
