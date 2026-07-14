@@ -123,5 +123,6 @@
       }
     ]
   },
-  "description": "Documentation from Successpro Users"
+  "description": "Documentation from Successpro Users",
+  "template": "atlas"
 }
