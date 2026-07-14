@@ -2,10 +2,14 @@
   "name": "Successpro",
   "colors": {
     "light": {
-      "brand": "#3B82F6"
+      "brand": "#2C4845",
+      "heading": "#333333",
+      "text": "#333333"
     },
     "dark": {
-      "brand": "#87B1F6"
+      "brand": "#87B1F6",
+      "heading": "#f2f2f2",
+      "text": "#c1c1c1"
     }
   },
   "navigation": {
@@ -51,18 +55,6 @@
                 "icon": "share-2"
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "icon": "terminal",
-            "openapi": "api-reference/openapi.yaml",
-            "pages": []
           }
         ]
       },
@@ -120,9 +112,24 @@
             "icon": "history"
           }
         ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "icon": "terminal",
+            "openapi": "api-reference/openapi.yaml",
+            "pages": []
+          }
+        ]
       }
     ]
   },
   "description": "Documentation from Successpro Users",
-  "template": "atlas"
+  "template": "classic",
+  "initialRoute": "introduction",
+  "logo-light": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true",
+  "favicon": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true"
 }
