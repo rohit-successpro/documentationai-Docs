@@ -2,7 +2,7 @@
   "name": "SuccessPro",
   "colors": {
     "light": {
-      "brand": "#E1F3F2",
+      "brand": "#037D78",
       "heading": "#0D5276",
       "text": "#333333"
     },
@@ -127,7 +127,7 @@
       }
     ]
   },
-  "description": "Documentation from Successpro Users",
+  "description": "Documentation from SuccessPro Users",
   "template": "classic",
   "initialRoute": "introduction",
   "logo-light": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true",
