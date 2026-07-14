@@ -1,5 +1,5 @@
 {
-  "name": "Successpro",
+  "name": "SuccessPro",
   "colors": {
     "light": {
       "brand": "#E1F3F2",
@@ -131,5 +131,6 @@
   "template": "classic",
   "initialRoute": "introduction",
   "logo-light": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true",
-  "favicon": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true"
+  "favicon": "https://blob-cdn.documentation.ai/org-5ea82e7e-0196-42b8-8b70-a601be9d580e/doc-efa2e08a-de8f-42a7-ad01-15561ca7bc63/1784018272228-txdklok0l3-icon-menu-logo-green.svg?rasterize-bypass=true",
+  "title": "SuccessPro"
 }
